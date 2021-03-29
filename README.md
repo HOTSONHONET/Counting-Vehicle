@@ -23,13 +23,7 @@ virtualenv <name-of-env>
 ./<name-of-env>/Scripts/activate
 pip install -r requirements.txt
 ~~~
-* Now, once all of the packages are installed, go to the cloned folder and run this command to start the application *(Assuming you are on windows like me 😉, for linux and mac users, replace **py** with **python3**)*
-~~~
-cd ./main
-py wsgi.py
-~~~
-
-* You will see a **http** url in the terminal, copy that link and open it in your browser
+# Folder Structure
 ~~~
 │   .gitignore
 │   log.txt
