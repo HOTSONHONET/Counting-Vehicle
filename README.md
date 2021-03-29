@@ -66,6 +66,6 @@ pip install -r requirements.txt
 ~~~
 py main.py
 ~~~
-* Watch this video 😉
+* Click on the image to see the working video... 😉
 
 [![Working Video](https://user-images.githubusercontent.com/56304060/112906740-4b106c00-910a-11eb-820a-0d8cc1acb9ac.png)](https://user-images.githubusercontent.com/56304060/112905094-7b0a4000-9107-11eb-9e5c-96b7d6a4fabe.mp4)
