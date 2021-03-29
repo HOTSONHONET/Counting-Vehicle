@@ -3,7 +3,7 @@
 A vehicle count model that takes an input of the path of the video and two coordinates (these coordinates are used to create a line you have to count the vehicles crossing this line) using YOLO.
 
 
-# How to use it ?
+# How to install dependecies ?
 
 * Install [python 3.7+](https://www.python.org/downloads/release/python-378/)
 * Open a terminal and type in the below command to install **virtualenv** module
@@ -13,7 +13,7 @@ pip install virtualenv
 
 * Create a new folder and clone this repository *(Assuming you already have **git** installed)*
 ~~~
-git clone https://github.com/HOTSONHONET/eazyBeat.git
+git clone https://github.com/HOTSONHONET/Counting-Vehicle.git
 ~~~
 
 * Use `Shift + rightclick` to open up a terminal in the folder
@@ -23,7 +23,12 @@ virtualenv <name-of-env>
 ./<name-of-env>/Scripts/activate
 pip install -r requirements.txt
 ~~~
+
+* Download the yolo weights file from [here...](https://drive.google.com/file/d/1hY8edW6v2czNGr0lO4g6urzH6dlKYiT-/view?usp=sharing)
+
+
 # Folder Structure
+* After downloading the weight file, make sure you have the same folder structure
 ~~~
 │   .gitignore
 │   log.txt
@@ -54,7 +59,12 @@ pip install -r requirements.txt
 ~~~
 
 
-
+# How to run the application ?
+* Open command prompt inside the clone folder using `Shift + rightclick`
+* Type the below command, this will ask you for the video path and the cross line height in terms of precentage
+~~~
+py main.py
+~~~
 
 
 
