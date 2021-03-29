@@ -17,7 +17,7 @@ log_file.write('vehicle_id, count, datetime\n')
 log_file.flush()
 
 path = input("Give your video path here : ")
-
+line_height = float(input("Give the percentage of line height (e.g. 75): "))
 
 cap = cv2.VideoCapture(path)
 
@@ -38,7 +38,8 @@ for box in initial_bboxes:
     blobs[blob_id] = _blob
 
 f_height, f_width, _ = frame.shape
-cl_y = round(4 / 5 * f_height)
+
+cl_y = round(((line_height % 100)/100) * f_height)
 counting_line = [(0, cl_y), (f_width, cl_y)]
 vehicle_count = 0
 
