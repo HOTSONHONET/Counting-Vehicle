@@ -29,6 +29,7 @@ pip install -r requirements.txt
 
 # Folder Structure
 * After downloading the weight file, make sure you have the same folder structure
+* It may happen that you may not have the *__pyache__* folder, it's completely fine 👌
 ~~~
 │   .gitignore
 │   log.txt
