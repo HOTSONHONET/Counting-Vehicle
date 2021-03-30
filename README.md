@@ -2,7 +2,7 @@
 
 A vehicle count model that takes an input of the path of the video and two coordinates (these coordinates are used to create a line you have to count the vehicles crossing this line) using YOLO.
 
-# Why *YOLO 🤔 ?
+# Why **YOLO 🤔 ?
 
 YOLO is popular because it achieves high accuracy while also being able to run in real-time. The algorithm “only looks once” at the image in the sense that it requires only one forward propagation pass through the neural network to make predictions.
 
